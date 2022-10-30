@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+nav .txt {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  transform: translate(-20%, -20%);
+}
+
+nav .txt .header-title {
+  border: 1px solid #ffffff;
+  padding: 45px;
+  text-align: center;
+  color: #ffffff;
+}
+
+nav .txt .header-title h2 {
+  font-size: 64px;
+}
+
+nav .txt .header-title h4 {
+  text-transform: uppercase;
+  font-size: 36px;
+  padding-top: 10px;
+}
+
+.nav-links {
+  padding-top: 180px;
+  padding-left: 80px;
+  display: flex;
+}
+
+.nav-links li {
+  padding: 18px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+  background-color: #f1f1f1;
+  border: none;
+}
+.nav-links li:nth-child(1) {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.nav-links li:nth-child(3) {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.nav-links li a {
+  color: black;
+}
+
+.nav-links li:hover {
+  background-color: #cccccc;
+}
+
+.container {
+  text-align: center;
+}
+
+.images img {
+  padding-top: 10px;
+  
+}
+
+.contact {
+  background-color: #f1f1f1;
+  margin: 0px 220px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.contact h3 {
+  font-size: 2rem;
+}
+.contact p {
+  padding-top: 1.5rem;
+  font-size: 1.1rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+form {
+  text-align: left;
+  margin-left: 15px;
+}
+
+label {
+padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+ 
+}
+
+input {
+  padding-top: 10px;
+  padding-left: 800px;
+  margin-bottom: 5px;
+}
+
+.btn {
+  text-align: center;
+  padding-left: 420px;
+  padding-right: 420px;
+  background-color: #cccccc;
+  margin-left: 0.5rem;
+  margin-top: 20px;
+  font-size: 1.8rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.w3  {
+  text-align: left;
+  padding-left: 30px;
+  font-size: 20px;
+
+
+}
+
+@media (min-width: 1441px) and (max-width: 2560px) {
+  .nav-links {
+    padding-top: 335px;
+    padding-left: 80px;
+    display: flex;
+  }
+  .nav-links li {
+    padding: 28px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  
+    background-color: #f1f1f1;
+    border: none;
+  }
+  .nav-links li a {
+    color: black;
+    font-size: 20px;
+  }
+
+  
+  .contact {
+    background-color: #f1f1f1;
+    margin: 0px 400px;
+    padding: 10px;
+    margin-top: 15px;
+  }
+  
+}
